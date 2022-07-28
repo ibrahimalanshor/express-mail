@@ -1,14 +1,14 @@
 {
-  "name": "express-mail",
+  "name": "@ibrahimanshor/express-mail",
   "version": "0.0.1",
-  "description": "",
+  "description": "## Instal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ibrahim Al Anshor",
   "license": "ISC",
   "dependencies": {
     "mustache": "^4.2.0",
@@ -23,5 +23,16 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimalanshor/express-mail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibrahimalanshor/express-mail/issues"
+  },
+  "homepage": "https://github.com/ibrahimalanshor/express-mail#readme"
 }
